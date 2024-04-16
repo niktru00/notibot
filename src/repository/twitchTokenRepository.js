@@ -1,4 +1,4 @@
-const {mongoClient} = require('./configDB');
+const {mongoClient} = require('../config/dbConfig');
 const ecdec = require('../service/encryptDecryptData');
 const key = Buffer.from(process.env.twitch_key, 'base64');
 const iv = Buffer.from(process.env.twitch_iv, 'base64');

@@ -8,7 +8,7 @@ let debug = require('debug')('notibot:server');
 let http = require('http');
 let socket = require('../src/wsListener');
 const twitchTokenRepository = require('../src/repository/twitchTokenRepository');
-const {dbOpen} = require("../src/repository/configDB");
+const {dbOpen} = require("../src/config/dbConfig");
 /**
  * Get port from environment and store in Express.
  */

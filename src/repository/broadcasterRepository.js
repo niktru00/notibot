@@ -1,4 +1,4 @@
-const {mongoClient} = require("./configDB");
+const {mongoClient} = require("../config/dbConfig");
 async function saveStatus(broadcasterId, status) {
     try {
         const db = mongoClient.db("twitchdb");
