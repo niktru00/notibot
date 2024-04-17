@@ -1,7 +1,7 @@
-const broadcasterService = require('./broadcasterService');
-const telegramService = require("./telegramService");
-const twitchService = require("./twitchService");
-const patternService = require("./patternService");
+const broadcasterService = require('./service/broadcasterService');
+const telegramService = require("./service/telegramService");
+const twitchService = require("./service/twitchService");
+const patternService = require("./service/patternService");
 
 /**
  *

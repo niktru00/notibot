@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 const twitchService = require('./service/twitchService');
-const messageService = require('./service/messageController');
+const messageService = require('./messageController');
 const {getBroadcasters} = require('./service/broadcasterService');
 function startSocket() {
     let eventSocket;
